@@ -1,8 +1,5 @@
-// Import environment variables
-const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
-// Define API endpoints using the environment variable
-export const API_END_POINT = `${backendUrl}/api/v1/user`;
+export const API_END_POINT = "https://netflix-clone-3-jhmy.onrender.com";
 
 export const options = {
     method: 'GET',
